@@ -16,20 +16,37 @@ A complete end‑to‑end Sales Analytics project featuring data cleaning, EDA, 
 
 ## 📁 Repository Structure
 
+```
 sales-performance-dashboard/
 │
 ├── data/
 │   ├── raw/
-│   ├── processed/
+│   └── processed/
 │
 ├── pbix/
+│   └── Sales_Dashboard.pbix
+│
 ├── eda/
+│   ├── eda_report.ipynb
+│   └── eda_visuals/
+│
 ├── images/
+│   ├── dashboard_preview.png
+│   └── key_insights.png
+│
 ├── docs/
+│   ├── project_overview.md
+│   ├── data_dictionary.md
+│   └── methodology.md
+│
 ├── scripts/
+│   ├── data_cleaning.py
+│   ├── eda_analysis.py
+│   └── utils.py
+│
 ├── README.md
 └── LICENSE
-
+```
 
 ---
 
@@ -53,7 +70,8 @@ sales-performance-dashboard/
 
 ## 📈 Dashboard Preview
 
-*(Insert image from `images/dashboard_preview.png`)*
+![Dashboard Preview](images/dashboard_preview.png)
+
 
 ---
 
